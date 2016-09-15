@@ -16,7 +16,7 @@ class DrawTestTwo {
 
 	// draw an epicycloid
 	// see https://en.wikipedia.org/wiki/Epicycloid
-	for(int i = 0; i < 360; i++)
+	for(int i = 0; i < 20*360; i++)
 	    StdDraw.line(radiusSum*Math.cos(Math.PI*i/180.0)
 			 -(smallRadius+offset)*Math.cos(radiusSum*Math.PI*i/180.0/smallRadius),
 			 radiusSum*Math.sin(Math.PI*i/180.0)
