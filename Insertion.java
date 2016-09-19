@@ -8,7 +8,7 @@ class Insertion {
 	for(int i = 1; i < array.length; i++) {
 	    // let the next item "sink" down to it's appropriate
 	    // level.
-	    for(int j = i; j > 0 && array[j] > array[j-1]; j--) {
+	    for(int j = i; j > 0 && array[j] < array[j-1]; j--) {
 		int temp = array[j-1];
 		array[j-1] = array[j];
 		array[j] = temp;
