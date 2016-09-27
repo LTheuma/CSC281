@@ -106,7 +106,7 @@ class LinearAlgebra {
 	// should print: [[0.0, 1.0], [-1.0, 0.0]]
 	System.out.println(Arrays.deepToString(scalarMult(-1.0,matB)));
 	
-	// should print: [1.1412, 0.0]
+	// should print: [1.4142, 0.0]
 	System.out.println(Arrays.toString(matVecMult(matA,vecA)));	
 
     }

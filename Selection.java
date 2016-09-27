@@ -5,7 +5,7 @@ class Selection {
 
     public static void sort(int[] array) {
 
-	for(int i = 0; i < array.length; i++) {
+	for(int i = 0; i < array.length-1; i++) {
 
 	    // find the smallest element in the remaining part of the
 	    // array

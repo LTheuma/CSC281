@@ -12,13 +12,10 @@ class Insertion {
 		int temp = array[j-1];
 		array[j-1] = array[j];
 		array[j] = temp;
-	    }
-	    
+	    }	    
 	}
-
     }
     
-
     public static void main(String[] args) {
 
 	// read the array from stdin
