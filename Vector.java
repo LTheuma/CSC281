@@ -5,8 +5,8 @@ import java.util.Arrays;
  */
 public class Vector {
 
-    private final int dim;
-    private final double[] v;
+    protected final int dim;
+    protected final double[] v;
 
     /**
      * Constructs a new <code>Vector</code> object from <code>a</code>. <code>a</code> is copied, so

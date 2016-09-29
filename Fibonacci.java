@@ -1,4 +1,4 @@
-class Fibbonacci {
+public class Fibonacci {
 
     public static final int numMemoize = 3;
     public static int[] lastCalls;
